@@ -1,2 +1,2 @@
-# figma2
+# figmaTemlete
 Git and GitHub

@@ -1,0 +1,119 @@
+#contenier{
+  margin-left: 150px;
+}
+.head {
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-around;
+}
+.hederList li {
+  display: inline;
+  list-style-type: none;
+  margin-left: 40px;
+  font-family: "Arial";
+  font-size: 16px;
+  color: #000000;
+  cursor: pointer;
+}
+.hederList {
+  margin-top: 39px;
+}
+.pics li {
+  display: inline;
+  margin-left: 40px;
+  list-style-type: none;
+}
+.pics{
+  margin-top: 29px;
+}
+.hederList li:hover {
+  color: cadetblue;
+}
+.gobo {
+  margin-bottom: 37.3px;
+  margin-top: 37px;
+}
+.firsText{
+font-family: 'Maven Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 56px;
+line-height: 70px;
+color: #000000;
+margin: 0px;
+margin-top: 200px;
+margin-left: 50px;
+}
+.firsText span{
+    color: crimson;
+}
+.secondText{
+font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 26px;
+color: #7D7C7C;
+margin-top:17px;
+margin-left: 50px;
+}
+.brClass{
+    margin-right: 50px;
+}
+.liList{
+    display: inline;
+    list-style-type: none;
+    display: flex;
+}
+.liList li{
+    margin-left: 16px;
+}
+.liText{
+font-family: 'Arial';
+font-size: 16px;
+color: #191C51;
+margin-top: 5px;
+}
+.firstItem{
+    display: flex;
+    padding: 0px;
+    justify-content: space-between;
+}
+.ellips{
+   border: 1px solid black;
+   width: 140px;
+   height: 140px;
+   position: absolute;
+}
+.el6img{
+    position: relative;
+    margin-left: 38px;
+    margin-top: 44px;
+}
+.gr225{
+    position: relative;
+    margin-left: 22px;
+    margin-bottom: 75px;
+    border-radius: 30px;
+}
+.jobDone{
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    margin-left: 10px;
+    margin-top: 5px;
+    color: #191C51;
+}
+.firstPic{
+    position: relative;
+}
+.imgList{
+    display: inline;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0px;
+    margin-top: 87px;
+}
+.thirdItem{
+  margin-top: 75px;
+}
