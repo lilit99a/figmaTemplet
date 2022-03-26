@@ -25,6 +25,7 @@
 }
 .pics{
   margin-top: 29px;
+  display: flex;
 }
 .hederList li:hover {
   color: cadetblue;
@@ -41,9 +42,13 @@ font-size: 56px;
 line-height: 70px;
 color: #000000;
 margin: 0px;
+margin-left: 65px;
 margin-top: 200px;
-margin-left: 50px;
 }
+ .firstTexts{
+  background: rgba(247, 246, 254, 1);
+  width: 85%;
+} 
 .firsText span{
     color: crimson;
 }
@@ -120,7 +125,7 @@ margin-top: 5px;
 .headFirst{
   display: flex;
   justify-content: space-around;
-  width: 70%;
+  width: 80%;
   background: rgba(247, 246, 254, 1);
 }
 .secondDiv{
