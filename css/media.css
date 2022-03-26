@@ -1,1 +1,8 @@
-@media  screen and ( max-width: 780px) {}
+@media  screen and ( max-width: 780px) {
+    .hederList{
+        display: none;
+    }
+    .firstPic{
+        display: none;
+    }
+}

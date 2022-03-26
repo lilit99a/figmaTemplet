@@ -1,5 +1,5 @@
 #contenier{
-  margin-left: 150px;
+  /* margin-left: 150px; */
 }
 .head {
   /* border: 1px solid black; */
@@ -119,5 +119,11 @@ margin-top: 5px;
 }
 .headFirst{
   display: flex;
+  justify-content: space-around;
   width: 70%;
+  background: rgba(247, 246, 254, 1);
+}
+.secondDiv{
+  padding: 0px;
+  margin-right: 50px;
 }
