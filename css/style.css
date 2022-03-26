@@ -117,3 +117,7 @@ margin-top: 5px;
 .thirdItem{
   margin-top: 75px;
 }
+.headFirst{
+  display: flex;
+  width: 70%;
+}
