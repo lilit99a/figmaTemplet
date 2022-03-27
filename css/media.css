@@ -9,4 +9,14 @@
   .vector9{
       display: none;
   }
+  .menuIcon{
+    display: initial;
+    
+}
+.menuIcon:hover + .mobileMenu{
+  display: initial;
+}
+.iconMenu{
+  display: none;
+}
 }
