@@ -162,4 +162,16 @@
   margin-top:70px;
   z-index: 2;
 }
-
+.liLists{
+  display: inline;
+  list-style-type: none;
+  display: flex;
+  margin-left: 70px;
+}
+.liTexts {
+  font-family: "Arial";
+  font-size: 16px;
+  color: #191c51;
+  margin-top: 5px;
+  margin-left: 10px;
+}
