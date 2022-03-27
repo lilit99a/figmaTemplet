@@ -42,11 +42,12 @@ font-size: 56px;
 line-height: 70px;
 color: #000000;
 margin: 0px;
-margin-left: 65px;
+margin-left: 120px;
 margin-top: 200px;
 }
  .firstTexts{
   background: rgba(247, 246, 254, 1);
+  height: 700px;
   width: 85%;
 } 
 .firsText span{
@@ -60,7 +61,17 @@ font-size: 18px;
 line-height: 26px;
 color: #7D7C7C;
 margin-top:17px;
-margin-left: 50px;
+margin-left: 120px;
+}
+.secText{
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: #7D7C7C;
+  margin-top:17px;
+  margin-left: 120px;
 }
 .brClass{
     margin-right: 50px;
@@ -69,6 +80,7 @@ margin-left: 50px;
     display: inline;
     list-style-type: none;
     display: flex;
+    margin-left: 70px;
 }
 .liList li{
     margin-left: 16px;

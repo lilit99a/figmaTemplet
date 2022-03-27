@@ -1,8 +1,12 @@
-@media  screen and ( max-width: 780px) {
-    .hederList{
-        display: none;
-    }
-    .firstPic{
-        display: none;
-    }
+@media screen and (max-width: 780px) {
+  .hederList {
+    display: none;
+  }
+
+  .firstPic {
+    display: none;
+  }
+  .vector9{
+      display: none;
+  }
 }
