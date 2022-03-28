@@ -19,4 +19,17 @@
 .iconMenu{
   display: none;
 }
+.mobileList li{
+  display: inline;
+  list-style-type: none;
+}
+.vector10{
+  display: none;
+}
+.imgList{
+  flex-wrap: wrap;
+}
+.vector9{
+  display: none;
+}
 }
