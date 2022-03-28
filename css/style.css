@@ -149,24 +149,25 @@
   padding: 0px;
   margin-right: 50px;
 }
-.secondItem{
+.secondItem {
   margin-top: 85.82px;
 }
-.twoImages{
+.twoImages {
   position: relative;
-  margin-left: 80px;
+  margin-left: 13%;
 }
-.imagerec{
+.imagerec {
   position: absolute;
-  z-index:1;
+  z-index: 1;
   margin-left: 120px;
 }
-.imagerec2{
-  position:absolute;
-  margin-top:70px;
+.imagerec2 {
+  position: absolute;
   z-index: 2;
+  top: 115px;
+  left: -7%;
 }
-.liLists{
+.liLists {
   display: inline;
   list-style-type: none;
   display: flex;
@@ -179,34 +180,58 @@
   margin-top: 5px;
   margin-left: 10px;
 }
-.menuIcon{
+.menuIcon {
   display: none;
 }
-.mobileMenu{
+.mobileMenu {
   display: none;
 }
-.radPic{
+.radPic {
   border-radius: 30px;
 }
-.firstPic{
+.firstPic {
   background-color: rgba(247, 246, 254, 1);
   height: 500px;
 }
-.firstellMenu{
+.firstellMenu {
   width: 4px;
   height: 4px;
   background: rgba(254, 60, 81, 1);
   border-radius: 2px;
 }
-.vector9{
+.vector9 {
   position: absolute;
-  top:-104px;
+  top: -104px;
   left: 106px;
   height: 750px;
 }
-.circyle{
+/* .circyle{
   width: 32.45px;
   height: 32.45px;
   border-radius: 16px;
   background: rgba(255, 248, 248, 1);
+  position: absolute;
+} */
+.watchImg {
+  position: relative;
+}
+
+.secondLiLists {
+  position: absolute;
+  margin: 0px;
+  padding: 0px;
+  top: 337px;
+  left: 18%;
+  display: inline;
+  list-style-type: none;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: medium;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(25, 28, 81, 1);
+}
+.secondLiTexts{
+  margin-left: 10px;
+  margin-top: 5px;
 }
