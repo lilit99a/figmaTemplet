@@ -231,7 +231,63 @@
   line-height: 19px;
   color: rgba(25, 28, 81, 1);
 }
-.secondLiTexts{
+.secondLiTexts {
   margin-left: 10px;
   margin-top: 5px;
+}
+.thirdItem {
+  display: flex;
+  justify-content: space-between;
+}
+.aboutUs {
+  margin-right: 20%;
+}
+.abUs {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 19px;
+  line-height: 100%;
+  color: rgba(255, 52, 66, 1);
+}
+.secondText{
+font-family: Arial, Helvetica, sans-serif;
+font-style: Medium;
+font-size: 32px;
+line-height: 46px;
+line-height: 109%;
+color: rgba(0, 0, 0, 1);
+margin:0px;
+margin-top:8px;
+}
+.thirdText{
+font-family: Arial, Helvetica, sans-serif;
+font-style: Regular;
+font-size: 16px;
+line-height: 26px;
+line-height: 138%;
+color: rgba(125, 124, 124, 1);
+margin-top: 8px;
+}
+.contText{
+font-family: Arial, Helvetica, sans-serif;
+font-style: Regular;
+font-size: 16px;
+line-height: 26px;
+line-height: 138%;
+color: rgba(125, 124, 124, 1);
+margin-top: 21px;
+}
+.Js{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  margin-top:-12px ;
+}
+.ceo{
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: Regular;
+  font-size: 10px;
+  line-height: 26px;
+  color: rgba(125, 124, 124, 1);
+  margin-top:-18px;
+
 }
