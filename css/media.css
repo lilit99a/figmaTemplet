@@ -31,5 +31,13 @@
 }
 .vector9{
   display: none;
+
+  }
+  .twoImages{
+    display: none;
+  }
+  .secondItem{
+    display: none;
+  }
 }
 }
