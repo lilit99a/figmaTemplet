@@ -354,4 +354,37 @@ margin-top: 21px;
 }
 .chooseUs{
   margin-top: 20%;
+  display: flex;
 }
+.usTwoUl{
+  display: inline;
+  list-style-type: none;
+}
+.usTwo{
+  width: 322px;
+  height: 237px;
+  border-top-left-radius: 70px;
+  border-top-right-radius: 70px;
+  border-bottom-left-radius: 70px;
+  border-bottom-right-radius: 10px;
+  background-color:  rgba(255, 255, 255, 1);
+  /* background-color: cadetblue; */
+  display: flex;
+  justify-content: center;
+  }
+  .chooseUsTwo{
+    display: flex;
+  }
+  .usTwoUlLi{
+    display: inline;
+    list-style-type: none;
+    line-height: 30px;
+  }
+  .usOneDiv{
+    margin-top: 41px;
+  }
+  .usTwoDiv{
+    margin-top: 12px;
+  }
+
+ 
