@@ -59,5 +59,12 @@
     font-size: 32px;
     line-height: 31px;
   }
+ 
+  .itemss{
+    flex-wrap: wrap;
+  }
+  .ourSer{
+    margin-top:-64%;
+  }
 }
 
