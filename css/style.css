@@ -250,56 +250,55 @@
   line-height: 100%;
   color: rgba(255, 52, 66, 1);
 }
-.secondText{
-font-family: Arial, Helvetica, sans-serif;
-font-style: Medium;
-font-size: 32px;
-line-height: 46px;
-line-height: 109%;
-color: rgba(0, 0, 0, 1);
-margin:0px;
-margin-top:8px;
+.secondText {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: Medium;
+  font-size: 32px;
+  line-height: 46px;
+  line-height: 109%;
+  color: rgba(0, 0, 0, 1);
+  margin: 0px;
+  margin-top: 8px;
 }
-.thirdText{
-font-family: Arial, Helvetica, sans-serif;
-font-style: Regular;
-font-size: 16px;
-line-height: 26px;
-line-height: 138%;
-color: rgba(125, 124, 124, 1);
-margin-top: 8px;
+.thirdText {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 26px;
+  line-height: 138%;
+  color: rgba(125, 124, 124, 1);
+  margin-top: 8px;
 }
-.contText{
-font-family: Arial, Helvetica, sans-serif;
-font-style: Regular;
-font-size: 16px;
-line-height: 26px;
-line-height: 138%;
-color: rgba(125, 124, 124, 1);
-margin-top: 21px;
+.contText {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 26px;
+  line-height: 138%;
+  color: rgba(125, 124, 124, 1);
+  margin-top: 21px;
 }
-.Js{
+.Js {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
-  margin-top:-12px ;
+  margin-top: -12px;
 }
-.ceo{
+.ceo {
   font-family: Arial, Helvetica, sans-serif;
   font-style: Regular;
   font-size: 10px;
   line-height: 26px;
   color: rgba(125, 124, 124, 1);
-  margin-top:-18px;
-
+  margin-top: -18px;
 }
-.ourServOne{
+.ourServOne {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   line-height: 19px;
   color: rgba(255, 52, 66, 1);
-  align-items:center;
+  align-items: center;
 }
-.ourServTwo{
+.ourServTwo {
   margin-top: 31px;
   margin-left: -11%;
   font-family: Arial, Helvetica, sans-serif;
@@ -308,36 +307,35 @@ margin-top: 21px;
   line-height: 28px;
   color: rgba(0, 0, 0, 1);
 }
-.itemss{
+.itemss {
   margin-top: 51px;
   display: flex;
   justify-content: space-around;
 }
-.ourSer{
+.ourSer {
   display: flex;
   justify-content: center;
 }
-.webDevOne{
+.webDevOne {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
   line-height: 21px;
   color: rgba(26, 39, 68, 1);
 }
-.webOne{
+.webOne {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
   line-height: 26px;
   color: rgba(89, 89, 84, 1);
 }
-.whyChUs{
+.whyChUs {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   line-height: 19px;
   color: rgba(255, 52, 66, 1);
   margin: 0px;
-
 }
-.ourTeam{
+.ourTeam {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 36px;
   line-height: 46px;
@@ -345,46 +343,62 @@ margin-top: 21px;
   margin: 0px;
   margin-top: 8px;
 }
-.wePro{
+.wePro {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
   line-height: 26px;
   color: rgba(89, 89, 84, 1);
   margin-top: 8px;
 }
-.chooseUs{
+.chooseUs {
   margin-top: 20%;
   display: flex;
+  position: relative;
 }
-.usTwoUl{
+.usTwoUl {
   display: inline;
   list-style-type: none;
 }
-.usTwo{
+.usTwo {
   width: 322px;
   height: 237px;
   border-top-left-radius: 70px;
   border-top-right-radius: 70px;
   border-bottom-left-radius: 70px;
   border-bottom-right-radius: 10px;
-  background-color:  rgba(255, 255, 255, 1);
+  background-color: rgba(255, 255, 255, 1);
   /* background-color: cadetblue; */
   display: flex;
-  justify-content: center;
-  }
-  .chooseUsTwo{
-    display: flex;
-  }
-  .usTwoUlLi{
-    display: inline;
-    list-style-type: none;
-    line-height: 30px;
-  }
-  .usOneDiv{
-    margin-top: 41px;
-  }
-  .usTwoDiv{
-    margin-top: 12px;
-  }
-
- 
+  position: absolute;
+  top: 25%;
+  left: 50%;
+}
+.chooseUsTwo {
+  display: flex;
+}
+.usTwoUlLi {
+  display: inline;
+  list-style-type: none;
+  line-height: 30px;
+}
+.usOneDiv {
+  margin-top: 41px;
+}
+.usTwoDiv {
+  margin-top: 12px;
+}
+.chooseUs {
+  justify-content: space-around;
+}
+.chooseUsOne {
+  position: relative;
+}
+.imgOne {
+  position: absolute;
+  top: 18%;
+  left: -56%;
+}
+.imgTwo {
+  position: absolute;
+  left: -55%;
+}

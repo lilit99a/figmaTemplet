@@ -39,5 +39,25 @@
   .secondItem{
     display: none;
   }
+  .imgOne{
+    display: none;
+  }
+  .imgTwo{
+    display: none;
+  }
+  .chooseUs{
+    margin-left: 10%;
+  }
+  .imgRec{
+    display: none;
+  }
+  .usTwo{
+    top: 102%;
+    left: 5%;
+  }
+  .ourTeam{
+    font-size: 32px;
+    line-height: 31px;
+  }
 }
-}
+
