@@ -322,12 +322,36 @@ margin-top: 21px;
   font-size: 18px;
   line-height: 21px;
   color: rgba(26, 39, 68, 1);
-
 }
 .webOne{
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
   line-height: 26px;
   color: rgba(89, 89, 84, 1);
+}
+.whyChUs{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(255, 52, 66, 1);
+  margin: 0px;
 
+}
+.ourTeam{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 36px;
+  line-height: 46px;
+  color: rgba(0, 0, 0, 1);
+  margin: 0px;
+  margin-top: 8px;
+}
+.wePro{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 26px;
+  color: rgba(89, 89, 84, 1);
+  margin-top: 8px;
+}
+.chooseUs{
+  margin-top: 20%;
 }
