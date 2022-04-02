@@ -242,6 +242,7 @@
 }
 .aboutUs {
   margin-right: 20%;
+  position: relative;
 }
 .abUs {
   font-family: Arial, Helvetica, sans-serif;
@@ -299,22 +300,22 @@
   align-items: center;
 }
 .ourServTwo {
-  margin-top: 31px;
-  margin-left: -11%;
   font-family: Arial, Helvetica, sans-serif;
   font-style: medium;
   font-size: 24px;
   line-height: 28px;
   color: rgba(0, 0, 0, 1);
+  margin-top: -1%;
 }
 .itemss {
-  margin-top: 51px;
+  margin-top: 55px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  margin-left: 10%;
+  margin-right: 5%;
 }
 .ourSer {
-  display: flex;
-  justify-content: center;
+  text-align: center;
 }
 .webDevOne {
   font-family: Arial, Helvetica, sans-serif;
@@ -401,4 +402,56 @@
 .imgTwo {
   position: absolute;
   left: -55%;
+}
+.itemss div {
+  width: 255px;
+  height: 269px;
+  border-radius: 10px;
+  background: rgb(236, 228, 228);
+  position: relative;
+}
+.imgItems {
+  position: absolute;
+  top: 10%;
+  left: 5%;
+}
+/* .itemss p{
+  position: absolute;
+  top: 24%;
+  box-shadow: 4px 4px 20px 0px rgba(231, 224, 224, 0.25);
+
+} */
+.webOne {
+  position: absolute;
+  top: 35%;
+  left: 5%;
+}
+.webDevOne {
+  position: absolute;
+  top: 24%;
+  left: 5%;
+}
+
+.itemss div {
+  box-shadow: 4px 4px 20px 0px rgba(66, 57, 57, 0.25);
+  background-color:  rgba(255, 255, 255, 1);
+  
+}
+.imgRecPngOne{
+  position: absolute;
+  z-index: 2;
+  top: 37%;
+  left: 138%;
+}
+.imgRecPngTwo{
+  position: absolute;
+  top: 15%;
+  left: 90%;
+  width: 294px;
+}
+.imgRecPngThree{
+  position: absolute;
+  top: -5%;
+  z-index: 3;
+  left: 152%;
 }
