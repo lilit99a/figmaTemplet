@@ -242,6 +242,7 @@
 }
 .aboutUs {
   margin-right: 20%;
+  position: relative;
 }
 .abUs {
   font-family: Arial, Helvetica, sans-serif;
@@ -436,4 +437,21 @@
   background-color:  rgba(255, 255, 255, 1);
   
 }
-
+.imgRecPngOne{
+  position: absolute;
+  z-index: 2;
+  top: 37%;
+  left: 138%;
+}
+.imgRecPngTwo{
+  position: absolute;
+  top: 15%;
+  left: 90%;
+  width: 294px;
+}
+.imgRecPngThree{
+  position: absolute;
+  top: -5%;
+  z-index: 3;
+  left: 152%;
+}

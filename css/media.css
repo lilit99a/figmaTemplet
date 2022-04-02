@@ -64,7 +64,20 @@
     flex-wrap: wrap;
   }
   .ourSer{
-    margin-top:-64%;
+    margin-top:-50%;
+  }
+  .imgRecPngOne{
+    display: none;
+  }
+  .imgRecPngTwo{
+    display: none;
+  }
+  .aboutUs{
+    margin-left: 10%;
+  }
+  .imgRecPngThree{
+    display: none;
+
   }
 }
 
