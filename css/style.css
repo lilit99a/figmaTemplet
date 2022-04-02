@@ -47,7 +47,7 @@
 }
 .firstTexts {
   background: rgba(247, 246, 254, 1);
-  height: 700px;
+  height: 713px;
   width: 85%;
   /* margin-left: 14%; */
   position: relative;
@@ -55,26 +55,7 @@
 .firsText span {
   color: crimson;
 }
-.secondText {
-  font-family: "Arial";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 26px;
-  color: #7d7c7c;
-  margin-top: 17px;
-  margin-left: 14%;
-}
-.secText {
-  font-family: "Arial";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 26px;
-  color: #7d7c7c;
-  margin-top: 17px;
-  margin-left: 14%;
-}
+
 .brClass {
   margin-right: 50px;
 }
@@ -82,7 +63,7 @@
   display: inline;
   list-style-type: none;
   display: flex;
-  margin-left: 10%;
+  margin-left: 6%;
 }
 .liList li {
   margin-left: 16px;
@@ -454,4 +435,11 @@
   top: -5%;
   z-index: 3;
   left: 152%;
+}
+.secondTexts{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  margin-left: 14%;
+  color: rgba(125, 124, 124, 1);
+
 }
