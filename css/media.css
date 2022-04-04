@@ -2,13 +2,16 @@
   .hederList {
     display: none;
   }
+  .firstTexts{
+    width: 100%;
+  }
 
   .firstPic {
     display: none;
   }
-  .vector9{
+   .vector9{
       display: none;
-  }
+   }  
   .menuIcon{
     display: initial;
     
@@ -63,9 +66,7 @@
   .itemss{
     flex-wrap: wrap;
   }
-  .ourSer{
-    margin-top:-50%;
-  }
+ 
   .imgRecPngOne{
     display: none;
   }
@@ -78,6 +79,16 @@
   .imgRecPngThree{
     display: none;
 
+  }
+  .itemThird{
+    display: none;
+  }
+  .sixthItem{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .sixthItemOne{
+    margin-bottom: 10px;
   }
 }
 

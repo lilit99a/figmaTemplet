@@ -7,16 +7,19 @@
   justify-content: space-around;
 }
 .hederList li {
-  display: inline;
   list-style-type: none;
   margin-left: 40px;
   font-family: "Arial";
   font-size: 16px;
   color: #000000;
   cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .hederList {
   margin-top: 39px;
+  display: flex;
 }
 .pics li {
   display: inline;
@@ -42,7 +45,7 @@
   line-height: 70px;
   color: #000000;
   margin: 0px;
-  margin-left: 14%;
+  /* margin-left: 14%; */
   margin-top: 200px;
 }
 .firstTexts {
@@ -64,9 +67,12 @@
   list-style-type: none;
   display: flex;
   margin-left: 6%;
+  padding: 0px;
+  margin: 0px;
 }
 .liList li {
-  margin-left: 16px;
+  /* margin-left: 16px; */
+  /* padding: 0px; */
 }
 .liText {
   font-family: "Arial";
@@ -159,7 +165,7 @@
   font-size: 16px;
   color: #191c51;
   margin-top: 5px;
-  margin-left: 10px;
+  margin-left: 17px;
 }
 .menuIcon {
   display: none;
@@ -182,7 +188,7 @@
 }
 .vector9 {
   position: absolute;
-  top: -104px;
+  /* top: -104px; */
   left: 106px;
   height: 750px;
 }
@@ -413,33 +419,187 @@
   left: 5%;
 }
 
-.itemss div {
+.itemss > div {
   box-shadow: 4px 4px 20px 0px rgba(66, 57, 57, 0.25);
-  background-color:  rgba(255, 255, 255, 1);
-  
+  background-color: rgba(255, 255, 255, 1);
 }
-.imgRecPngOne{
+.imgRecPngOne {
   position: absolute;
   z-index: 2;
   top: 37%;
   left: 138%;
 }
-.imgRecPngTwo{
+.imgRecPngTwo {
   position: absolute;
   top: 15%;
   left: 90%;
   width: 294px;
 }
-.imgRecPngThree{
+.imgRecPngThree {
   position: absolute;
   top: -5%;
   z-index: 3;
   left: 152%;
 }
-.secondTexts{
+.secondTexts {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
-  margin-left: 14%;
+  /* margin-left: 14%; */
   color: rgba(125, 124, 124, 1);
+}
+
+.fifthItem {
+  background-color: rgba(247, 246, 254, 1);
+  height: 492px;
+  margin-top: 10%;
+}
+.fifthItemOne {
+  position: relative;
+}
+.fifthItemPic1 {
+  position: absolute;
+  top: 135px;
+  left: 189px;
+}
+.fifthItemPic2 {
+  position: absolute;
+  top: 212px;
+  left: 374px;
+}
+.fifthItemPic3 {
+  position: absolute;
+  top: 212px;
+  left: 374px;
+}
+.liFirst {
+  margin: 0px;
+  position: relative;
+}
+.liImage {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.textInIage23 {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.texts {
+  margin-left: 17%;
+}
+
+.itemThird {
+  /* display: flex;
+  justify-content: space-around; */
+}
+.itemThirdOne {
+  display: flex;
+  align-items: self-end;
+}
+.itemThirdOnePic {
+  position: absolute;
+  z-index: 20;
+  left: 4%;
+  height: 319px;
+}
+.whatImages {
+  margin-left: 20%;
+  position: relative;
+}
+.whatchItem {
+  display: flex;
+  justify-content: center;
+  margin-left: 7px;
+}
+.whatchPic {
+  margin-right: 10px;
+  height: 50px;
+}
+.ourSer {
+  margin-top: 19%;
+}
+.vector10 {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+}
+.aboutCircile {
+  width: 4px;
+  height: 4px;
+  border-radius: 2px;
+  margin: 0px;
+  background-color: rgba(247, 246, 254, 1);
+}
+.menuUlItem {
+  display: flex;
+}
+.menuList {
+  margin: 0px;
+}
+.menuList:first-child div {
+  background-color: rgba(254, 60, 81, 1);
+}
+.latStay {
+  text-align: center;
+  margin-top: 10%;
+}
+.latestNew {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: rgba(255, 52, 66, 1);
+}
+.stayWith {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  color: rgba(0, 0, 0, 1);
+  margin-top: 0px;
+}
+.sixthItem {
+  margin-top: 44px;
+  display: flex;
+  justify-content: space-around;
+}
+.sixthItemOneP1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: rgba(255, 52, 66, 1);
+}
+.sixthItemOneP2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: rgba(25, 28, 81, 1);
+}
+.sixthItemOneP3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: rgba(89, 89, 84, 1);
+}
+.sixthItemOne{
+  width: 351px;
+  height: 387px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 1);
+  /* background-color: red; */
+  box-shadow: 4px 4px 20px 0px rgb(66 57 57 / 25%);
+}
+.sixthItemOnePic{
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  margin-top: 10px;
+}
+.sixthItemOneDiv{
+  margin-left: 12px;
+}
+.seventhItem{
+  width: 654px;
+  height: 173px;
+  border-radius: 20px;
+  background: linear-gradient(90deg, #FCE8E9 2.02%, rgba(252, 232, 233, 0) 100.78%);
 
 }
