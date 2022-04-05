@@ -34,7 +34,6 @@
 }
 .vector9{
   display: none;
-
   }
   .twoImages{
     display: none;
@@ -89,6 +88,15 @@
   }
   .sixthItemOne{
     margin-bottom: 10px;
+  }
+  .eighthItemFourImgThree{
+    display: none;
+  }
+  .eighthItemFourImgOne{
+    display: none;
+  }
+  .eighthItemFourImgTwo{
+    display: none;
   }
 }
 
