@@ -16,15 +16,17 @@
     display: initial;
     
 }
-.menuIcon:hover + .mobileMenu{
+ /* .menuIcon:hover + .mobileMenu{
+  display: initial;
+} */
+.mobileMenu{
   display: initial;
 }
 .iconMenu{
   display: none;
 }
 .mobileList li{
-  display: inline;
-  list-style-type: none;
+  list-style-type: none; 
 }
 .vector10{
   display: none;
@@ -79,7 +81,7 @@
     display: none;
 
   }
-  .itemThird{
+  .itemThirdOne{
     display: none;
   }
   .sixthItem{
@@ -97,6 +99,51 @@
   }
   .eighthItemFourImgTwo{
     display: none;
+  }
+  .usTwo{
+    display: none;
+  }
+  .itemThirdTwo{
+    text-align: center;
+  }
+  .itemThirdTwoDiv{
+    display: none;
+  }
+  .itemThirdTwopTwo{
+   margin-top: 10px;
+   margin-bottom: 10px;
+   font-size: 31px;
+  }
+  .fifthItemOne{
+    display: none;
+  }
+  .fifthItemThree{
+    display: none;
+  }
+  .fifthItemTwoP1{
+    margin-top: 9%;
+    align-self: baseline;
+    text-align-last: center;
+  }
+  .fifthItemTwoPic2{
+  }
+  .fifthItem{
+    height: 380px;
+  }
+  .sevenItemPic{
+    display: none;
+  }
+  .sevenFormInput{
+    width: 200px;
+    height: 56px;
+    border:solid;
+  }
+  .sevenFormSum{
+    width: 86px;
+    height: 34px;
+  }
+  .sevenForm{
+    margin-bottom: 31px;
   }
 }
 
