@@ -1,3 +1,13 @@
+
+let icon=document.querySelector('.menuIcon')
+console.log(icon);
+let menuList=document.querySelector('.mobileList')
+console.log(menuList);
+icon.addEventListener('click',()=>{
+  icon.classList.toggle('menuList');
+  // menuList.classList.toggle('showmenu');
+  console.log(555);
+})
 let pinkItemOe = document.querySelectorAll(".itemssProvider");
 console.log(pinkItemOe);
 
@@ -34,6 +44,7 @@ clikedItem.addEventListener("click", () => {
   }
   rotatedPic.style.transition = "all 5s";
   rotatedPic.style.transform = `rotate(${rotate}deg)`;
+  rotatedPic.style.backgroundColor="pink"
 });
 
 let circyle = document.querySelectorAll(".menuList");
@@ -65,3 +76,5 @@ sixthItem.forEach((element, index) => {
     element.style.backgroundColor = " rgba(255, 248, 248, 1)";
   });
 });
+
+
