@@ -2,148 +2,166 @@
   .hederList {
     display: none;
   }
-  .firstTexts{
+  .firstTexts {
     width: 100%;
   }
 
   .firstPic {
     display: none;
   }
-   .vector9{
-      display: none;
-   }  
-  .menuIcon{
+  .vector9 {
+    display: none;
+  }
+  .menuIcon {
     display: initial;
-    
-}
- /* .menuIcon:hover + .mobileMenu{
+    cursor: pointer;
+  }
+  .menuIcon:hover + .mobileMenu {
+    display: initial;
+  }
+  .firsText {
+    margin-top: 0px;
+    font-size: 44px;
+  }
+  .firstTexts {
+    height: auto;
+  }
+  .itemss div {
+    width: 220px;
+    height: 253px;
+  }
+  /* .mobileMenu{
   display: initial;
 } */
-.mobileMenu{
-  display: initial;
-}
-.iconMenu{
-  display: none;
-}
-.mobileList li{
-  list-style-type: none; 
-}
-.vector10{
-  display: none;
-}
-.imgList{
-  flex-wrap: wrap;
-}
-.vector9{
-  display: none;
-  }
-  .twoImages{
+  .iconMenu {
     display: none;
   }
-  .secondItem{
+  .mobileList li {
+    list-style-type: none;
+  }
+  .vector10 {
     display: none;
   }
-  .imgOne{
+  .imgList {
+    flex-wrap: wrap;
+  }
+  .vector9 {
     display: none;
   }
-  .imgTwo{
+  .twoImages {
     display: none;
   }
-  .chooseUs{
+  .secondItem {
+    display: none;
+  }
+  .imgOne {
+    display: none;
+  }
+  .imgTwo {
+    display: none;
+  }
+  .chooseUs {
     margin-left: 10%;
   }
-  .imgRec{
+  .imgRec {
     display: none;
   }
-  .usTwo{
+  .usTwo {
     top: 102%;
     left: 5%;
   }
-  .ourTeam{
+  .ourTeam {
     font-size: 32px;
     line-height: 31px;
   }
- 
-  .itemss{
+
+  .itemss {
     flex-wrap: wrap;
   }
- 
-  .imgRecPngOne{
+
+  .imgRecPngOne {
     display: none;
   }
-  .imgRecPngTwo{
+  .imgRecPngTwo {
     display: none;
   }
-  .aboutUs{
+  .aboutUs {
     margin-left: 10%;
   }
-  .imgRecPngThree{
-    display: none;
-
-  }
-  .itemThirdOne{
+  .imgRecPngThree {
     display: none;
   }
-  .sixthItem{
+  .itemThirdOne {
+    display: none;
+  }
+  .sixthItem {
     display: flex;
     flex-wrap: wrap;
   }
-  .sixthItemOne{
+  .sixthItemOne {
     margin-bottom: 10px;
+    width: 218px;
+    height: 330px;
   }
-  .eighthItemFourImgThree{
+   .input{
+    height: 152px;
+    width: 380px;
+   }
+   .inputText{
+     font-size: 19px;
+   }
+  .eighthItemFourImgThree {
     display: none;
   }
-  .eighthItemFourImgOne{
+  .eighthItemFourImgOne {
     display: none;
   }
-  .eighthItemFourImgTwo{
+  .eighthItemFourImgTwo {
     display: none;
   }
-  .usTwo{
+  .usTwo {
     display: none;
   }
-  .itemThirdTwo{
+  .itemThirdTwo {
     text-align: center;
   }
-  .itemThirdTwoDiv{
+  .itemThirdTwoDiv {
     display: none;
   }
-  .itemThirdTwopTwo{
-   margin-top: 10px;
-   margin-bottom: 10px;
-   font-size: 31px;
+  .itemThirdTwopTwo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 31px;
   }
-  .fifthItemOne{
+  .fifthItem {
+    height: 225px;
+  }
+  .fifthItemOne {
     display: none;
   }
-  .fifthItemThree{
+  .fifthItemThree {
     display: none;
   }
-  .fifthItemTwoP1{
+  .fifthItemTwoP1 {
     margin-top: 9%;
     align-self: baseline;
     text-align-last: center;
   }
-  .fifthItemTwoPic2{
-  }
-  .fifthItem{
-    height: 380px;
-  }
-  .sevenItemPic{
+ .sixthItemOnePic{
+   width: 187px;
+ }
+  .sevenItemPic {
     display: none;
   }
-  .sevenFormInput{
+  .sevenFormInput {
     width: 200px;
     height: 56px;
-    border:solid;
   }
-  .sevenFormSum{
-    width: 86px;
-    height: 34px;
+  .sevenFormSum {
+    width: 109px;
+    height: 66px;
   }
-  .sevenForm{
+  .sevenForm {
     margin-bottom: 31px;
   }
 }
-
